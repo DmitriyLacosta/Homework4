@@ -6,6 +6,8 @@ int N = int.Parse(Console.ReadLine()!);
 int[] myArray = new int[N];
 
  //Ввод с клавиатуры.
+void arr(int[] myArray)
+{
 Console.WriteLine("введите числа в массиве через Enter: ");
 for (int i=0; i<N; i++)
 {
@@ -18,3 +20,5 @@ for (int i = 0; i < N; i++)
 {
     Console.Write("{0} ", myArray[i]);
 }
+}
+arr(myArray);
